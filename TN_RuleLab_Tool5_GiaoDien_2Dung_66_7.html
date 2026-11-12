@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><meta content="#0b1323" name="theme-color"/><title>Baccarat Rule Scan · Tool5 giao diện · 30 rule tự nâng</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1423;--card:#13243a;--line:#314863;--sub:#9fb6d3;--ink:#edf4ff;--gold:#ffda97;--t:#5fe0ac;--n:#ff99aa;--blue:#78b4ff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:12px/1.42 system-ui,-apple-system,'Segoe UI',Arial,sans-serif}main{max-width:660px;margin:auto;padding:10px 10px 50px}button,input,select{font:inherit;color:inherit}button{cursor:pointer;touch-action:manipulation}button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}.brand{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:9px}.brand strong{font-weight:950;font-size:19px}.brand small,.muted{color:var(--sub);font-size:10px}.brand .sub{color:var(--gold);font-size:10px;font-weight:850}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px}.line{display:flex;align-items:center;gap:7px;justify-content:space-between;min-width:0}.line>*{min-width:0}.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin:7px 0 8px}.tab{border:1px solid #405775;background:#1c304a;border-radius:8px;padding:8px 2px;font-weight:850;font-size:11px}.tab.on{border-color:#95afd1;background:#355373;color:#fff}.view{display:none}.view.on{display:block}.select{background:#0c1a2c;border:1px solid #465d7a;border-radius:8px;padding:8px 7px;min-width:0;width:100%}.btn{border:1px solid #4c6382;border-radius:8px;background:#23405b;padding:8px 10px;font-weight:800}.btn.light{background:#192f46}.btn.warn{background:#51303b;border-color:#965762}.action-bar{display:flex;gap:5px;align-items:center}.action-bar .select{flex:1}.label{font-size:10px;font-weight:900;color:var(--gold)}.hero{text-align:center;background:#17253b;border:1px solid #445c79;border-radius:11px;padding:10px}.hero.good{border-color:#357e6a;background:#12392e}.hero.conflict{background:#3a2632;border-color:#955b67}.hero .micro{color:#b6c8de;font-size:10px}.hero .big{font-size:25px;font-weight:950;line-height:1.3;color:var(--gold);margin:3px 0}.hero.good .big{color:var(--t)}.hero.conflict .big{color:var(--n)}.hero .note{color:#c4d6e8;font-size:10px;line-height:1.55}.metricbox{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin:7px 0}.metric{background:#0e1f32;border:1px solid #36506d;border-radius:8px;padding:7px 5px;text-align:center}.metric b{font-size:16px;display:block}.metric small{font-size:9px;color:var(--sub);display:block}.votes{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}.vote{padding:5px 7px;border-radius:7px;background:#233b53;border:1px solid #435e7c;font-weight:850;font-size:10px}.vote.T{background:#1b4a3e;color:#b8fae2;border-color:#376f61}.vote.N{background:#603441;color:#ffe0e5;border-color:#885162}.vote.off{opacity:.7}.in{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.in button{border:0;border-radius:9px;min-height:48px;color:white;font-weight:950;font-size:14px}.in small{font-size:9px;display:block;font-weight:700}.in .B{background:#b73853}.in .P{background:#2775c7}.in .H{background:#8d6a22}.subnote{font-size:9px;color:#a7bdd7;margin-top:5px}.roadwrap{overflow-x:auto;scrollbar-width:thin}.road{display:flex;gap:4px;width:max-content;padding:1px 0 3px}.column{min-width:43px;background:#0e1b2d;border:1px solid #344961;border-radius:7px;display:grid;grid-template-rows:20px repeat(6,28px) 18px;gap:1px;padding:2px 2px;text-align:center}.column.current{background:#192e49;border-color:#9c8047}.column>strong{font-size:10px;color:var(--gold)}.spot{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;font-size:8px;line-height:1}.coin{border-radius:50%;height:19px;width:19px;display:grid;place-items:center;color:white;font-weight:900;font-size:10px}.coin.B{background:#bb3f56}.coin.P{background:#3077c4}.coin.H{background:#93702b}.coin.empty{border:1px dashed #455b77;background:none;color:#576f8e}.coin.next{border:2px dashed var(--gold);background:none;color:var(--gold)}.sg.T{color:var(--t)}.sg.N{color:var(--n)}.cell-foot{font-size:8px;font-weight:900;letter-spacing:-.3px}.compact{border-top:1px solid #30455e;margin-top:7px;padding-top:6px}.compact summary{font-size:10px;color:#d7e4f5;font-weight:750;cursor:pointer}.compact summary::marker{color:var(--gold)}.controls{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:6px 0}.controls label{font-size:10px;color:#c7dbf1}.controls input[type=checkbox]{accent-color:#4be1aa}.controls select{background:#0e1f33;border:1px solid #425d7b;border-radius:6px;padding:6px;font-size:10px}.group{margin:9px 0 5px;border-top:1px solid #30445e;padding-top:6px}.groupname{font-size:10px;font-weight:900;color:var(--gold)}.rule{border:1px solid #344f6d;border-radius:8px;background:#102036;padding:8px;margin:5px 0}.rule .name{font-weight:850;font-size:11px}.rule .meta{font-size:9px;color:#acc5df;margin-top:3px;line-height:1.5}.badge{display:inline-block;border-radius:6px;padding:3px 6px;background:#2b3f58;border:1px solid #46607d;font-size:9px;font-weight:850;white-space:nowrap}.badge.T{background:#1b513e;color:#c0ffe3}.badge.N{background:#623844;color:#ffdee3}.badge.disabled{opacity:.65}.badge.alert{background:#4c3b23;color:#ffe1aa}.rulecheck{accent-color:var(--t);width:15px;height:15px;vertical-align:middle}.tiny{font-size:9px;color:var(--sub)}.bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.bar>*{min-width:0}.bar .select{flex:1}.tablewrap{overflow-x:auto}table{width:100%;min-width:580px;border-collapse:collapse;font-size:10px}th,td{padding:8px 6px;border-bottom:1px solid #2b425a;text-align:left;vertical-align:top}th{font-size:9px;color:#a7c1df}td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.statsline{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:7px 0}.st{background:#0d2034;border:1px solid #344a62;border-radius:9px;padding:8px;text-align:center}.st b{font-size:18px;display:block}.st span{color:var(--sub);font-size:9px}.history-row{border-bottom:1px solid #2b4058;padding:7px 0;font-size:10px}.history-row b{font-weight:850}.alertbox{background:#332c23;border:1px solid #806742;border-radius:8px;padding:8px;color:#f5ddaf;font-size:10px;line-height:1.55;margin:7px 0}.foot{font-size:9px;color:#99aec9;line-height:1.5;margin-top:10px}.search{background:#0d1d30;border:1px solid #405a7b;border-radius:7px;padding:7px;flex:1;min-width:130px}.selectedrule{border-color:#4a907c}.group>summary{cursor:pointer;list-style:none;padding:4px 0}.group>summary::-webkit-details-marker{display:none}.group>summary:after{content:' ▾';color:#a9beda}.group[open]>summary:after{content:' ▴'}.kdetail{display:none}.kdetail.on{display:block}@media(max-width:360px){main{padding:7px 6px 30px}.metric b{font-size:14px}.tabs .tab{font-size:10px}.column{min-width:40px}.hero .big{font-size:23px}.card{padding:8px}}
+
+/* V3 — xếp hạng theo mức kiểm chứng, ẩn rule yếu khỏi bảng chính. */
+.quality-strip{border:1px solid #456386;border-radius:9px;background:#0d1c2f;padding:9px;margin:8px 0}
+.quality-strip .qh{font-size:10px;color:#ffdf9e;font-weight:850;margin-bottom:7px}
+.quality-row{display:flex;align-items:flex-start;gap:8px;justify-content:space-between;padding:7px 0;border-top:1px solid #293e56}
+.quality-row:first-of-type{border-top:0}.quality-name{font-weight:850;font-size:11px}.quality-meta{font-size:9px;color:#afc5dc;line-height:1.5}.quality-badge{font-size:9px;border:1px solid #357967;border-radius:6px;padding:3px 6px;color:#a9f4da;white-space:nowrap;font-weight:850}
+.quality-badge.pause{border-color:#a67f48;color:#ffe0a8}.quality-badge.sample{border-color:#5c7390;color:#c5d6f2}
+.rule.low-rule{opacity:.85}.fold-weak{border-top:1px solid #30475f;margin-top:9px;padding-top:7px}.fold-weak>summary{cursor:pointer;font-size:10px;color:#aec7e7;font-weight:750}
+.rule-stats-badge{display:inline-block;margin-top:5px;padding:2px 6px;border-radius:6px;border:1px solid #46637f;font-size:9px;font-weight:800}
+@media(max-width:370px){.quality-meta{font-size:9px}.quality-name{font-size:10px}}
+
+/* V4 — chọn một rule dẫn đầu thay vì bỏ phiếu gây xung đột. */
+.hero .lead{font-size:12px;font-weight:850;color:#ffdda7;margin:5px 0 0}
+.hero .leadmeta{font-size:10px;color:#d5e7f5;margin-top:3px}
+.quality-row.is-match{border-left:2px solid #57caa2;padding-left:6px}
+.quality-badge.active{background:#1c583f;color:#ccffe8;border-color:#53b18d}
+.quality-badge.limited{border-color:#ad7b44;color:#ffe5ab}
+.vote.best{border-width:2px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+@media(max-width:450px){.quality-strip{padding:8px}.quality-row{padding:6px 0}.hero .big{font-size:23px}}
+/* V5 — % rõ màu, gợi ý B/P bên phải từng rule. */
+.quality-strip{padding:10px 9px}
+.quality-row{display:grid;grid-template-columns:minmax(0,1fr) 112px;align-items:center;column-gap:9px;row-gap:5px;padding:11px 0}
+.quality-row.is-match{border-left:3px solid #59d4a9;padding-left:7px;background:linear-gradient(90deg,rgba(39,118,93,.13),transparent 75%)}
+.quality-body{min-width:0}
+.quality-name{font-size:12px;font-weight:900;line-height:1.4;color:#eaf3ff}
+.quality-stats{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.quality-stat{display:flex;flex-direction:column;gap:1px;align-items:flex-start;background:#101f32;border:1px solid #34506b;border-radius:7px;padding:5px 7px;min-width:74px}
+.quality-stat.primary{border-color:#436b86;background:#142e44}
+.quality-stat .qs-label{font-size:9px;font-weight:700;color:#bed0e7}
+.quality-stat .qs-num{display:flex;align-items:baseline;gap:4px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.quality-stat .qs-pct{font-size:15px;font-weight:950;line-height:1.15;letter-spacing:-.25px}
+.quality-stat.primary .qs-pct{font-size:20px}
+.quality-stat .qs-count{font-size:9px;font-weight:800;color:#d1dfef}
+.pct-hi{color:#55e2a7 !important;text-shadow:0 0 9px rgba(57,220,148,.12)}
+.pct-mid{color:#f7ce77 !important}
+.pct-low{color:#ff91a6 !important}
+.pct-na{color:#879bb7 !important}
+.quality-action{display:flex;flex-direction:column;gap:4px;align-items:stretch;justify-content:center;text-align:center}
+.rule-pick{display:flex;flex-direction:column;justify-content:center;gap:2px;border:1px solid #617189;padding:9px 5px;border-radius:9px;min-height:57px;line-height:1.2}
+.rule-pick .pick-prefix{font-size:9px;font-weight:750;opacity:.88}
+.rule-pick .pick-main{font-size:14px;font-weight:950;letter-spacing:-.2px}
+.rule-pick.P{background:#19446e;border-color:#408ede;color:#e1f0ff}
+.rule-pick.B{background:#643042;border-color:#c2637b;color:#ffe2e6}
+.rule-pick.blocked{background:#3d3427;border-color:#9f7b45;color:#ffdea8}
+.quality-action .quality-badge{font-size:9px;padding:4px 3px;white-space:normal;line-height:1.2}
+.quality-sub{font-size:9px;color:#a9c0de;margin-top:5px;line-height:1.4}
+@media(max-width:390px){.quality-row{grid-template-columns:minmax(0,1fr) 99px;gap:6px}.quality-stat{min-width:66px;padding:5px 5px}.quality-stat.primary .qs-pct{font-size:18px}.quality-stat .qs-pct{font-size:14px}.rule-pick .pick-main{font-size:13px}}
+/* V6 — tiện ích xuất data/xóa bàn + màu tách từng dấu T/N. */
+.board-tools{display:grid;grid-template-columns:1fr 1fr 1.14fr;gap:5px;margin-top:7px}
+.board-tools .btn{font-size:10px;padding:9px 4px;white-space:nowrap}
+.board-tools .delete-board{background:#432632;border:1px solid #aa596b;color:#ffe1e7}
+.export-hint{color:#acc9e4;font-size:9px;margin-top:5px;line-height:1.45}
+.column{grid-template-rows:20px repeat(6,36px) 22px;min-width:46px}
+.spot{gap:1px}
+.spot .sg{min-width:21px;height:14px;line-height:12px;display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:950;border-radius:4px;border:1px solid transparent;letter-spacing:0}
+.spot .sg.T{background:#105a48;color:#b8ffe5;border-color:#3bac8d}
+.spot .sg.N{background:#752936;color:#ffe6e9;border-color:#d46173}
+.spot .sg.Q{background:#5a471e;color:#ffe3a3;border-color:#a48743}
+.spot .sg.missing{color:#677e9c}
+.cell-foot{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));align-items:center;justify-content:center;gap:0;white-space:nowrap;overflow:hidden}
+.foot-token{display:inline-flex;min-width:0;height:15px;align-items:center;justify-content:center;border-radius:2px;font-size:8px;line-height:15px;font-weight:950}
+.foot-token.T{background:#12634b;color:#b5ffe0}.foot-token.N{background:#8c3444;color:#ffe3e7}
+.foot-token.Q{background:#6b511f;color:#ffe2a1}.foot-token.missing{color:#637b97}
+.tn-legend{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tn-legend b{font-size:10px;padding:2px 7px;border-radius:5px;font-weight:900}
+.tn-legend .t{background:#105a48;color:#b8ffe5;border:1px solid #3bac8d}
+.tn-legend .n{background:#752936;color:#ffe6e9;border:1px solid #d46173}
+.tn-legend .q{background:#5a471e;color:#ffe3a3;border:1px solid #a48743}
+@media(max-width:360px){.board-tools .btn{font-size:9px;padding:8px 3px}.column{min-width:44px}}
+
+/* V7 COMPACT MOBILE — vẫn giữ 30 rule, dữ liệu và đầy đủ thao tác. */
+main{max-width:520px;padding:6px 7px 28px}
+.brand{margin:0 0 5px;gap:4px}
+.brand strong{font-size:15px;line-height:1.15}
+.brand .sub{font-size:9px}
+.brand small{font-size:9px}
+.brand>.badge{font-size:8px;padding:3px 5px}
+.card{padding:7px 8px;border-radius:9px;margin-bottom:5px}
+.action-bar{gap:5px}
+.action-bar .select{font-size:11px;padding:6px 7px;min-height:32px}
+.action-bar .btn{font-size:11px;padding:6px 8px;min-height:32px}
+.tabs{gap:4px;margin:5px 0 6px}
+.tab{padding:6px 2px;font-size:10px;border-radius:6px}
+.label{font-size:9px}
+.badge{padding:2px 5px;font-size:8px}
+.hero{padding:6px 7px;border-radius:8px}
+.hero .micro{font-size:9px;line-height:1.2}
+.hero .big{font-size:20px;line-height:1.1;margin:2px 0}
+.hero .note{font-size:9px;line-height:1.3}
+.hero .lead{font-size:10px;margin:2px 0 0}
+.hero .leadmeta{font-size:9px;margin:1px 0 0}
+.metricbox{gap:4px;margin:5px 0}
+.metric{padding:4px 3px;border-radius:6px}
+.metric b{font-size:13px;line-height:1.15}
+.metric small{font-size:8px;line-height:1.2}
+.quality-strip{padding:6px 7px;margin:5px 0;border-radius:8px}
+.quality-strip .qh{font-size:9px;margin:0 0 4px}
+.quality-row{grid-template-columns:minmax(0,1fr) 91px;column-gap:5px;row-gap:1px;padding:5px 0}
+.quality-row.is-match{border-left-width:2px;padding-left:4px}
+.quality-name{font-size:10px;line-height:1.24;font-weight:850}
+.quality-stats{display:flex;flex-wrap:wrap;gap:3px 7px;margin-top:3px}
+.quality-stat,.quality-stat.primary{display:inline-flex;flex-direction:row;align-items:baseline;gap:3px;min-width:0;width:auto;padding:0;border:0;border-radius:0;background:transparent}
+.quality-stat .qs-label{font-size:8px;white-space:nowrap;color:#a5bad5}
+.quality-stat .qs-num{display:inline-flex;gap:2px;flex-wrap:nowrap;align-items:baseline}
+.quality-stat .qs-pct,.quality-stat.primary .qs-pct{font-size:12px;line-height:1;font-weight:950}
+.quality-stat.primary .qs-pct{font-size:14px}
+.quality-stat .qs-count{font-size:8px;color:#b6cbe1}
+.quality-sub{font-size:8px;margin-top:2px;line-height:1.2}
+.quality-action{gap:3px}
+.rule-pick{min-height:0;padding:5px 3px;border-radius:6px;gap:1px}
+.rule-pick .pick-prefix{font-size:8px}
+.rule-pick .pick-main{font-size:11px}
+.quality-action .quality-badge{font-size:8px;line-height:1.1;padding:2px 2px;white-space:normal}
+.quality-hint{font-size:8px;color:#8fa9c7;line-height:1.25;margin-top:4px}
+.quality-strip .subnote{font-size:8px;margin-top:3px}
+.advanced-controls{margin:3px 0 4px;padding-top:3px}
+.advanced-controls summary{font-size:9px}
+.advanced-controls .select{font-size:10px;padding:5px;max-width:250px}
+.advanced-controls .subnote{margin:5px 0 0}
+.manage-fold{margin-top:4px;padding-top:4px}
+.manage-fold>summary{font-size:9px}
+.manage-fold .board-tools{margin-top:6px}
+.board-tools .btn{font-size:9px;padding:6px 2px;line-height:1.2}
+.export-hint{font-size:8px;margin-top:3px}
+#main .label[style]{margin:5px 0 3px !important}
+.in{gap:4px}
+.in button{min-height:38px;border-radius:7px;font-size:12px}
+.in small{font-size:8px}
+#undo{padding:5px 8px;font-size:10px}
+#main #toast{margin:0}
+#matchdetail{margin-top:4px;padding-top:4px}
+.road{gap:3px;padding:0 0 1px}
+.column{min-width:37px;grid-template-rows:16px repeat(6,25px) 14px;gap:0;padding:2px 1px;border-radius:6px}
+.column>strong{font-size:9px}
+.spot{gap:0}
+.coin{height:16px;width:16px;font-size:9px}
+.spot .sg{min-width:18px;height:11px;font-size:9px;line-height:10px;padding:0}
+.cell-foot{height:12px}
+.foot-token{height:12px;font-size:7px;line-height:12px}
+.tn-legend{gap:4px;margin-top:3px}
+.tn-legend b{padding:1px 4px;font-size:8px}
+.tn-legend span{font-size:8px}
+.subnote{font-size:8px}
+.compact{margin-top:5px;padding-top:4px}
+.compact summary{font-size:9px}
+#rules .rule,.history-row{padding:5px}
+#stats th,#stats td{padding:5px 4px}
+.foot{font-size:8px;margin-top:6px}
+@media(max-width:390px){
+ main{padding:5px 5px 24px}
+ .card{padding:6px}
+ .quality-row{grid-template-columns:minmax(0,1fr) 83px;column-gap:4px}
+ .quality-stat .qs-label{font-size:7.5px}
+ .quality-stat .qs-pct{font-size:11px}
+ .quality-stat.primary .qs-pct{font-size:12.5px}
+ .quality-stat .qs-count{font-size:7.5px}
+ .rule-pick .pick-main{font-size:10px}
+ .quality-action .quality-badge{font-size:7.5px}
+ .column{min-width:35px}
+}
+
+
+/* V8 · Màn chính chỉ tín hiệu + nhập + bảng đã có, rule yếu ẩn hoàn toàn. */
+.compact-entry .hero{margin:3px 0 6px;padding:7px 7px}
+.compact-entry .in button{min-height:37px}
+.compact-entry .entry-feedback{margin-top:4px;font-size:9px}
+.compact-entry .entry-feedback #toast:empty{display:none}
+.compact-road{padding-bottom:6px}
+.compact-road .roadwrap{margin:4px 0 0}
+.compact-road .road{justify-content:flex-start;gap:3px}
+.compact-road .column{min-width:36px}
+.compact-road .tn-legend{margin-top:3px}
+.compact-analysis{padding:5px 8px}
+.compact-analysis>details{margin:0;padding:0;border:0}
+.compact-analysis>details>summary{font-size:10px;font-weight:850;color:#bcd5f3;cursor:pointer}
+.compact-analysis #qualitySummary{margin-top:7px}
+.compact-analysis .quality-strip{margin:4px 0;padding:6px}
+.compact-analysis .quality-row{grid-template-columns:minmax(0,1fr) 80px;padding:5px 0}
+.compact-analysis .quality-stats .quality-stat:nth-child(n+3){display:none}
+.compact-analysis .quality-hint{display:none}
+.compact-analysis .quality-name{font-size:10px}
+.compact-analysis .rule-pick{padding:3px}
+.compact-analysis .rule-pick .pick-main{font-size:10px}
+.compact-analysis .metricbox{margin-top:5px}
+#main .compact-analysis .subnote{line-height:1.45}
+/* V9: Chỉ hiện B/P/H tại từng ô, T/N/? gom thành một dòng ở chân cột. */
+.compact-road .column{grid-template-rows:16px repeat(6,21px) 19px;min-width:43px}
+.compact-road .spot{gap:0}
+.compact-road .spot .coin{width:18px;height:18px;font-size:10px}
+.compact-road .cell-foot{height:18px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));align-items:center;gap:1px;overflow:visible;padding:1px 0 0;border-top:1px solid #385470}
+.compact-road .cell-foot .foot-token{font-size:8px;height:15px;line-height:15px;border-radius:3px;min-width:0}
+
+/* V10: Màu ô kết quả theo Banker/Player, không dùng xanh lá cho mọi tín hiệu. */
+#hero.banker{background:#42212c;border-color:#c65a70;color:#fff1f3}
+#hero.banker .big{color:#ff91a3;text-shadow:0 1px 0 rgba(0,0,0,.12)}
+#hero.banker .lead{color:#ffced5}
+#hero.banker .micro,#hero.banker .note{color:#f7d9df}
+#hero.player{background:#153657;border-color:#468ed2;color:#edf6ff}
+#hero.player .big{color:#91c7ff}
+#hero.player .lead{color:#c4e2ff}
+#hero.player .micro,#hero.player .note{color:#d0e5fb}
+#hero.wait{background:#19293e;border-color:#4b6381}
+#hero.wait .big{color:#ffd18b}
+#hero.no-ref{background:#342b22;border-color:#997b42}
+#hero.no-ref .big{color:#ffda91}
+
+/* V11: Rule phụ tự lên hạng theo tỷ lệ/số mẫu; bảng quản lý ưu tiên các rule có số liệu tốt. */
+#rules .aux-title{margin:10px 0 5px;font-size:11px;font-weight:900;color:#ffdd9a}
+#rules .aux-note{font-size:9px;color:#adc5df;line-height:1.4;margin:3px 0 7px}
+#rules .aux-row{padding:6px 7px;background:#102136;border:1px solid #304761;border-radius:7px;margin:4px 0}
+#rules .aux-row.chosen{border-color:#6fbd9b;background:#142d32}
+#rules .aux-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+#rules .aux-name{display:flex;align-items:center;gap:4px;font-size:10px;line-height:1.25;min-width:0;flex:1}
+#rules .aux-name input{width:14px;height:14px;flex-shrink:0;accent-color:#6fdbb2}
+#rules .aux-right{min-width:60px;display:flex;flex-direction:column;align-items:flex-end;line-height:1.1;gap:1px}
+#rules .aux-pct{font-size:15px;font-weight:950;font-variant-numeric:tabular-nums}
+#rules .aux-tiny{color:#a5bad3;font-size:8px}
+#rules .aux-lower{display:flex;justify-content:space-between;align-items:center;gap:5px;flex-wrap:wrap;margin-top:4px}
+#rules .aux-state{font-size:8px;color:#abc0db;font-weight:800}
+#rules .aux-state.active{color:#7ae1b5}
+#rules .aux-state.candidate{color:#ffd387}
+#rules .aux-signal{font-size:9px;color:#9fb4cf;font-weight:850}
+#rules .aux-signal.B{color:#ff96a8}
+#rules .aux-signal.P{color:#90c9ff}
+#rules .aux-extra{margin-top:3px;color:#a8bfdc;font-size:9px}
+#rules .aux-extra>summary{font-size:8px;cursor:pointer;color:#8fa8c7}
+#rules .aux-extra div{margin-top:3px;line-height:1.35}
+#rules .aux-pct.pct-hi{color:#66dfa8}
+#rules .aux-pct.pct-mid{color:#ffda85}
+#rules .aux-pct.pct-low{color:#ff94a7}
+#rules .aux-pct.pct-na{color:#94a4b9}
+@media(max-width:390px){#rules .aux-row{padding:5px 6px}#rules .aux-pct{font-size:13px}}
+
+/* TOOL5 LAYOUT: imported visual rhythm and compact mobile scale, with 30-rule logic intact. */
+:root{--bg:#0b111c;--card:#141e2e;--line:#304057;--sub:#9baec7;--ink:#f2f5fc;--gold:#f6cc76;--t:#65dca8;--n:#ff91a0;--blue:#71b7ff}
+html,body{background:var(--bg);color:var(--ink)}
+body{font:12px/1.42 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;min-height:100dvh}
+main{max-width:510px;padding:9px 10px calc(75px + env(safe-area-inset-bottom))}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+.eyebrow{font-size:9px;font-weight:850;letter-spacing:.065em;color:var(--gold)}
+.v5brand{font-size:18px;font-weight:950;letter-spacing:-.5px;line-height:1.3}
+.v5brand span{color:var(--gold)}
+.v5sub{color:var(--sub);font-size:9px;line-height:1.35}
+.roundbadge,.roundposition{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;border:1px solid #4f6585;background:#263953;border-radius:999px;padding:5px 8px;color:#f2f5fc;font-weight:850;font-size:10px}
+.boardbar{display:block;padding:0;margin:0 0 7px}
+.boardbar .action-bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px}
+.boardbar .select{padding:8px 10px;font-size:11px;font-weight:700;border-radius:9px}
+.boardbar .btn{padding:8px 10px}
+.tabs{position:sticky;top:0;z-index:15;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;background:var(--bg);padding:4px 0 7px;margin:0 0 3px}
+.tab{font-size:10px;font-weight:800;padding:8px 1px;border-radius:8px;background:#141f30;border-color:#2f4059;color:#b9cce5;white-space:nowrap}
+.tab.on{background:#304a68;border-color:#82a0c6;color:white}
+.card{padding:10px;margin-bottom:8px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.label{color:var(--gold);font-size:10px;font-weight:900;letter-spacing:.016em}
+.entry-main{padding:9px 9px 8px}
+.hero{padding:8px 7px;border-radius:10px;margin:5px 0 8px;background:#162236;border:1px solid #41536d}
+.hero .micro{font-size:9px;color:#a8bed9}
+.hero .big{font-size:25px;line-height:1.16;margin:3px 0 2px;color:var(--gold)}
+.hero .note{font-size:9px;color:#c4d3e9;line-height:1.45}
+.hero .lead{font-size:10px;color:#e9edff;line-height:1.45;margin:3px 0}
+.hero.banker{background:#3c202e!important;border-color:#86495a!important}
+.hero.banker .big{color:#ff91a0!important}
+.hero.player{background:#132d50!important;border-color:#4d7dae!important}
+.hero.player .big{color:#8bc3ff!important}
+.hero.wait{background:#172235!important;border-color:#35465f!important}
+.hero.wait .big{color:#f6cc76!important}
+.hero.no-ref{background:#302b21!important;border-color:#8c713c!important}
+.hero.no-ref .big{color:#f9d18b!important}
+.in{gap:5px}
+.in button{height:48px;min-height:48px;border-radius:9px;font-size:14px;font-weight:900}
+.in button.B{background:#b7334d}.in button.P{background:#2671ce}.in button.H{background:#88681e}
+.in small{font-size:9px}
+.entry-feedback{margin-top:6px;font-size:9px}
+#undo{padding:6px 9px;font-size:10px}
+.entry-road-panel{background:#0d192a;border-color:#344963;padding:7px}
+.entry-road-panel .line{margin-bottom:5px}
+.roadwrap{overflow-x:auto;scrollbar-width:thin}
+.road{display:flex;gap:4px;width:max-content;justify-content:flex-start;align-items:stretch;padding:0 0 3px}
+.column{min-width:43px;grid-template-rows:18px repeat(6,24px) 16px;padding:3px 2px 2px;gap:1px;border:1px solid #31465e;border-radius:7px;background:#0f1b2d}
+.column.current{border-color:#937447;background:#17283d}
+.column>strong{font-size:10px;color:#f2ce89}
+.spot{min-height:22px;justify-content:center}
+.coin{width:19px;height:19px;font-size:9px}
+.coin.B{background:#d64b63}.coin.P{background:#337bd5}.coin.H{background:#93702b}
+.cell-foot{height:14px;min-height:14px;display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;gap:0;letter-spacing:-.6px}
+.foot-token{display:inline-flex;align-items:center;justify-content:center;width:6px;height:13px;font-size:8px;line-height:1;font-weight:950}
+.foot-token.T{color:#70e7b1}.foot-token.N{color:#ff8b9e}.foot-token.Q{color:#efcb70}
+.tn-legend{font-size:9px;gap:5px;display:flex;align-items:center;margin:3px 0 0}
+.tn-legend b{font-size:9px;padding:1px 5px;border-radius:4px}
+.tn-legend .t{background:#145b48;color:#bafde3}.tn-legend .n{background:#793341;color:#ffdae0}.tn-legend .q{background:#69542f;color:#ffde98}
+.compact-analysis{padding:6px 8px}
+.compact-analysis>details>summary{font-size:10px;color:#c6d8f1}
+.quality-strip{border-color:#34516e;padding:7px}
+.quality-row{padding:6px 0;grid-template-columns:minmax(0,1fr) 86px}
+.quality-name{font-size:10px}
+.quality-stat .qs-pct,.quality-stat.primary .qs-pct{font-size:12px}
+.rule-pick{padding:4px;border-radius:6px}.rule-pick .pick-main{font-size:11px}
+.metricbox{gap:5px}.metric{padding:6px 4px}.metric b{font-size:15px}.metric small{font-size:8px}
+.aux-row{background:#101f32;border-color:#32465f;border-radius:8px}
+#rules .card,#stats .card,#settings .card,#roadview .card{padding:10px}
+#roadview .column{grid-template-rows:20px repeat(6,29px) 20px;min-width:46px}
+#roadview .coin{width:22px;height:22px;font-size:11px}
+#roadview .foot-token{width:7px;font-size:9px}
+#roadview .cell-foot{height:18px}
+.ref-table{min-width:0;max-width:320px;margin-top:6px}
+.ref-table th,.ref-table td{padding:5px 10px;border-bottom:1px solid #263b56;font-size:10px}
+.v5settings-note{font-size:11px;line-height:1.6;margin-top:8px}
+.v5statlog{margin:10px 0 0;padding:9px;border:1px solid #344861;border-radius:9px}
+.v5statlog>summary{font-size:11px;color:#d8e7f9;font-weight:850;cursor:pointer}
+.manage-fold{border:none;margin:0;padding:0}
+.manage-fold>summary{font-size:11px;color:#d7e8fa}
+.manage-fold .board-tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+#settings .controls{gap:5px}
+#settings .bar{gap:5px}
+#settings .bar #cursor{min-width:60px}
+.foot{margin-top:10px;font-size:9px}
+@media(max-width:375px){main{padding:6px 6px 40px}.v5brand{font-size:16px}.roundbadge{font-size:9px;padding:5px 6px}.tab{font-size:9px}.entry-main{padding:8px 7px}.column{min-width:40px}.road{gap:3px}.coin{width:18px;height:18px}.card{padding:8px}.quality-row{grid-template-columns:minmax(0,1fr) 83px}}
+</style></head><body><main>
+<header class="top"><div><div class="eyebrow">BẢNG KHỐI 6 HÀNG · NHỊP T/N</div><div class="v5brand">Baccarat <span>Rule Scan 30+</span></div><div class="v5sub">Tool5 · 30 rule tự nâng · 2 đúng / 66,7%</div></div><div class="roundbadge" id="v5round">Ván #66</div></header>
+<div class="boardbar"><div class="action-bar"><select aria-label="Chọn bàn" class="select" id="board"></select><button class="btn" id="new" title="Tạo bàn">+ Bàn</button></div></div>
+<nav class="tabs"><button class="tab on" data-tab="main">Nhập</button><button class="tab" data-tab="rules">Tín hiệu</button><button class="tab" data-tab="stats">Thống kê</button><button class="tab" data-tab="roadview">Bảng khối</button><button class="tab" data-tab="settings">Cài đặt</button></nav>
+<section class="view on" id="main">
+<div class="card compact-entry entry-main">
+<div class="line"><strong class="label">VÁN KẾ TIẾP</strong><span class="roundposition" id="target">#66 · C11 H6</span></div>
+<div aria-live="polite" class="hero" id="hero"></div>
+<div class="in"><button class="B" data-add="B">BANKER<small>B · đỏ</small></button><button class="P" data-add="P">PLAYER<small>P · xanh</small></button><button class="H" data-add="H">HÒA<small>H · vàng</small></button></div>
+<div class="line entry-feedback"><span class="subnote" id="toast"></span><button class="btn light" id="undo">↶ Hoàn tác</button></div>
+</div>
+<div class="card compact-road entry-road-panel">
+<div class="line"><strong class="label">BẢNG KHỐI 6 HÀNG · DẤU T/N CUỐI CỘT</strong><span class="tiny" id="roadInfo"></span></div>
+<div class="roadwrap" id="roadScroll"><div class="road" id="road"></div></div>
+<div class="subnote tn-legend"><b class="t">T</b><b class="n">N</b><b class="q">?</b><span>Thuận · Nghịch · Hòa/thiếu</span></div>
+</div>
+<div class="card compact-analysis">
+<details class="compact" id="analysisFold"><summary>📊 Xem rule được nâng và thống kê</summary>
+<div id="qualitySummary"></div>
+<div class="metricbox" id="metrics"></div>
+<details class="compact advanced-controls"><summary>⚙ Cách chọn rule · <span class="tiny" id="voteMeta"></span></summary>
+<div class="votes" id="votes" style="display:none"></div>
+<div class="line"><label class="tiny" for="quickMode">Chế độ</label><select class="select" id="quickMode" style="flex:1;max-width:270px"><option value="auto">Tự chọn rule % cao mỗi ván</option><option value="observe">Chỉ quan sát · không gợi ý</option></select></div>
+<div class="subnote" id="filterExplain"></div>
+</details>
+<details class="compact" id="matchdetail"><summary id="matchSummary">Xem rule đạt ngưỡng và lý do</summary><div id="matchRows"></div></details>
+<div class="subnote">Rule chưa đạt 2 đúng hoặc dưới 66,7% trên bàn chỉ theo dõi; lịch sử trên 75% được đánh dấu riêng. Tất cả rule vẫn được chấm ngầm.</div>
+</details>
+</div>
+</section>
+<section class="view" id="rules"><div class="card"><div class="line"><strong class="label">CÁC RULE ĐANG KHỚP · ƯU TIÊN THEO BÀN</strong><span class="badge" id="ruleCount"></span></div><div class="controls"><label>Chế độ <select id="mode"><option value="auto">Tự chọn % cao</option><option value="observe">Chỉ quan sát</option></select></label><label>Điều kiện tự nâng <select id="minSample"><option value="2">Đúng 2 · giữ từ 2/3</option></select></label></div><div class="bar"><input class="search" id="search" placeholder="Tìm R1, đường chéo, Hòa, số lượng..."/><button class="btn light" id="allOn">Bật lại toàn bộ</button><button class="btn light" id="baseOnly">Chỉ R1–R4</button></div><div class="alertbox">Cả 30 rule được chấm dù chưa lên hạng. <b>Đúng 2 → đủ điều kiện</b>; nếu sai 1 thì <b>2/3 = 66,7% vẫn giữ</b>. Khi tỷ lệ giảm dưới 66,7%, rule trở về theo dõi; đủ điều kiện sẽ tự lên lại. Rule lịch sử &gt;75% được đánh dấu, không được ưu tiên chỉ vì tên chính/phụ.</div>
+<div id="priorityRules"></div><div id="auxCandidates"></div><details class="fold-weak" id="weakPanel"><summary>Rule yếu / chưa đủ mẫu · chỉ nghiên cứu</summary><div id="weakRules"></div></details></div><div class="card"><strong class="label">TỰ DÒ MẪU CHUỖI</strong><div class="subnote">Tìm chuỗi và đường chéo, nhưng các mẫu động chỉ dùng để khám phá; KHÔNG bỏ phiếu chính.</div><details class="fold-weak"><summary>Mở 12 bộ dò mẫu (nghiên cứu)</summary><div id="dynamic"></div></details></div></section>
+<section class="view" id="stats"><div class="card"><strong class="label">THỐNG KÊ KIỂM CHỨNG</strong><div class="alertbox">Các mẫu này được phát hiện/tinh chỉnh trên dữ liệu lịch sử đã xem. “5 bàn sau” chỉ là phân tách kỹ thuật, không phải kiểm chứng độc lập hoàn toàn. Số lần quá ít phải xem là chưa đủ bằng chứng.</div><div class="statsline" id="overall"></div><div class="subnote">Đã đối chiếu nguồn 1.109 ván / 24 chuỗi riêng biệt (17 lịch sử + 7 bổ sung); 30 rule tool và 9 rule V8 được kiểm toán riêng. Mỗi ván chỉ dùng những lượt rule đã được chấm trước đó. Các tỷ lệ là hồi cứu, chưa phải xác suất dự báo.</div><div class="tablewrap"><table><thead><tr><th>Rule / Nhóm</th><th class="num">12 bàn đầu</th><th class="num">5 bàn sau</th><th class="num">Bàn 65</th><th class="num">Bàn đang chọn</th></tr></thead><tbody id="statRows"></tbody></table></div><details class="fold-weak"><summary>Các rule khác · thống kê đầy đủ</summary><div class="tablewrap"><table><thead><tr><th>Rule</th><th class="num">12 bàn</th><th class="num">5 bàn</th><th class="num">Bàn 65</th><th class="num">Bàn hiện tại</th></tr></thead><tbody id="weakStatRows"></tbody></table></div></details><div class="subnote">Đúng/Tổng là số ván đủ điều kiện P/B, bỏ Hòa và vị trí không có mốc. Rule được chọn từ những dữ liệu đã xem nên % có nguy cơ quá khớp; không cộng các %.</div></div><details class="compact v5statlog"><summary>Nhật ký từng ván (nhấn xem)</summary><section class="stats-logs-body" id="logs"><div class="card"><div class="line"><strong class="label">NHẬT KÝ TỪNG VÁN</strong><button class="btn light" id="csv">↓ CSV</button></div><div class="subnote">Tính tuần tự không nhìn tương lai; nếu đổi rule bật/tắt, nhật ký tính lại theo cấu hình hiện tại (mô phỏng hồi cứu).</div><div id="logRows"></div></div></section></details></section><section class="view" id="roadview">
+<div class="card"><div class="line"><strong class="label">BẢNG KHỐI 6 HÀNG · TOÀN BỘ VÁN</strong><span class="tiny" id="fullRoadCount">—</span></div><div class="roadwrap roadview-wrap"><div class="road" id="roadFull"></div></div><div class="subnote">P xanh · B đỏ · H vàng. Chuỗi T/N ở chân cột: T trùng màu, N khác màu, ? do Hòa hoặc thiếu; Hòa vẫn chiếm ô.</div></div>
+<div class="card"><strong class="label">QUY TẮC SO T/N</strong><div class="tablewrap"><table class="ref-table"><tbody><tr><th>Hàng cột mới</th><th>Mốc cột trước</th></tr><tr><td>1</td><td>3</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>1</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>3</td></tr><tr><td>6</td><td>4</td></tr></tbody></table></div><div class="subnote">Mỗi dấu T/N đã nhập sẽ được cập nhật ở cuối cột, không ghi bên trong từng ô P/B/H.</div></div>
+</section><section class="view" id="settings">
+<div class="card"><strong class="label">QUẢN LÝ BÀN</strong><div class="subnote">Chọn bàn ở đầu trang hoặc tạo bàn mới. Các thao tác xuất, nhập, hoàn tác và xóa bàn nằm ngay bên dưới.</div></div>
+<div class="card" id="settingsManage"><details class="compact manage-fold" open=""><summary>☰ Dữ liệu · xuất / nhập · xóa / tua ván</summary><div aria-label="Xuất dữ liệu và xóa bàn" class="board-tools" role="group"><button class="btn light" id="export" title="Tải JSON của bàn đang chọn">↓ Xuất JSON</button><button class="btn light" id="csvQuick" title="Tải CSV các ván và rule trên bàn đang chọn">↓ Xuất CSV</button><button class="btn delete-board" id="deleteBoard" title="Xóa toàn bộ bàn đang chọn">🗑 Xóa bàn này</button></div><div class="controls"><button class="btn light" id="reset">Khôi phục 65 ván</button><button class="btn light" id="exportAll">↓ Sao lưu tất cả bàn + cài đặt</button><button class="btn light" id="import">↑ Nhập JSON</button><input accept=".json,application/json" id="file" style="display:none" type="file"/></div><div class="export-hint">Xuất JSON/CSV: bàn đang chọn. Sao lưu tất cả: cả các bàn và cấu hình. Xóa bàn: có hỏi xác nhận.</div><div class="bar"><button class="btn" id="prev">◀</button><input id="cursor" max="65" min="0" style="flex:1;min-width:50px" type="range" value="65"/><button class="btn" id="next">▶</button><span class="tiny" id="cursorText"></span></div></details></div>
+<div class="card"><strong class="label">QUY TẮC TỰ NÂNG RULE</strong><div class="v5settings-note">Mỗi rule đúng <b>2/2</b> được nâng để xét dự báo. Khi đúng <b>2/3 (66,7%)</b> vẫn giữ; xuống <b>2/4 (50%)</b> thì hạ xuống theo dõi. Các rule được chấm tuần tự theo từng ván, không cộng phần trăm từ nhiều rule.</div><div class="subnote">Hòa và mốc Hòa không được tính vào số lượt đúng/sai. Tỷ lệ hồi cứu chỉ mô tả dữ liệu đã xảy ra, không phải xác suất thắng.</div></div>
+</section>
+
+<div class="foot">Công cụ tự chọn rule để kiểm chứng, không chứng minh lợi thế đặt cược. Tín hiệu một phía, phần trăm hồi cứu hoặc nhiều rule cùng phía không bảo đảm kết quả ván tiếp theo.</div>
+</main><script>
+'use strict';
+const BASE=[{"id":"screen20","name":"Ảnh đã gửi · 20 ván","start":1,"seq":"PBPPPHPPBPPBPBBPBBPB","tag":"sample"},{"id":"demo65","name":"Bàn mẫu · 65 ván","start":1,"seq":"PPBBPBBBPBBBBBPBBBHPBBHPPBBBBBPBBPBBBBPBBHBPPBHBHPBBBPPPBPHBPPBPB","tag":"demo"},{"id":"hist01","name":"Lịch sử 01 · Tìm mẫu","start":1,"seq":"BPPPPHPBPHPBPBBPPBPPBPPPBPBPBBPPBBPBBBPPHPBBBPBPBBPHHBB","tag":"train"},{"id":"hist02","name":"Lịch sử 02 · Tìm mẫu","start":1,"seq":"PPBPPBPBPPPBHPBHPBPPBPPBBBBBPBBPPBPBBBBBPPPBBPPBP","tag":"train"},{"id":"hist03","name":"Lịch sử 03 · Tìm mẫu","start":1,"seq":"PPBPPPPBBPBBPBPBPHHPBBHPPPPBPPHPPBBBBBPPHPBPBBPPBPP","tag":"train"},{"id":"hist04","name":"Lịch sử 04 · Tìm mẫu","start":1,"seq":"BHPPBPPPPHPBHPBBPPHPBPBPPPPBHPBBBHPPBPBPPBPBB","tag":"train"},{"id":"hist05","name":"Lịch sử 05 · Tìm mẫu","start":1,"seq":"PBBBPBPPPPBPPPBHPHBBHHPPHPHPPBBPPBBBPPPBBPHPPBBPBHBBBHPPPPP","tag":"train"},{"id":"hist06","name":"Lịch sử 06 · Tìm mẫu","start":1,"seq":"BHBPPBBPHPBBBPBBHBHPBBPBPPPBPHPBBPBPHPBPHBHBBBB","tag":"train"},{"id":"hist07","name":"Lịch sử 07 · Tìm mẫu","start":1,"seq":"PPPPPPHBPBPPBBPPHBPPPPPPBBPBPBPHBBHPPBBBBBBHPPPPBBPBPPHBBPBBPB","tag":"train"},{"id":"hist08","name":"Lịch sử 08 · Tìm mẫu","start":1,"seq":"PBBPHPPPPBPPPPBPPPBBPHPBBB","tag":"train"},{"id":"hist09","name":"Lịch sử 09 · Tìm mẫu","start":1,"seq":"PBBPBBBB","tag":"train"},{"id":"hist10","name":"Lịch sử 10 · Tìm mẫu","start":1,"seq":"PPPBBPPHBPPPBBBBHPPB","tag":"train"},{"id":"hist11","name":"Lịch sử 11 · Tìm mẫu","start":1,"seq":"PBPPP","tag":"train"},{"id":"hist12","name":"Lịch sử 12 · Tìm mẫu","start":1,"seq":"HBBBBBPHBPBPBPPPHBBBPBPBPBPBPBHPBPBBPPBPBB","tag":"train"},{"id":"hist13","name":"Lịch sử 13 · Kiểm tra","start":9,"seq":"PPBBBPBBHBHPBPBBPBBPPPPHPHBBBHBBBBBHBBBPPBPPPBBPHPBBPPB","tag":"test"},{"id":"hist14","name":"Lịch sử 14 · Kiểm tra","start":20,"seq":"BBBPBBPPPBBHBPPBBBBPPBBBBPPPBBBBHBPHBBBBPPPBBHPBBP","tag":"test"},{"id":"hist15","name":"Lịch sử 15 · Kiểm tra","start":4,"seq":"BPPPBHBBBPBBPPPPBPHBBPBHPBHBPPPPPBPHPBBBPBHPPPPBBPHBPPBPB","tag":"test"},{"id":"hist16","name":"Lịch sử 16 · Kiểm tra","start":8,"seq":"PPBPBBBPPPBBPPBBBBPPBBBPHPPPPBBBPBBPBHHBPPPPBBHBPBBPPBBP","tag":"test"},{"id":"hist17","name":"Lịch sử 17 · Kiểm tra","start":8,"seq":"PBHPPPBPBHPBBPBBPHPBBHBPBPPBBHPBBPBPPPHBBPBBPPBPHPPPBBBPP","tag":"test"},{"id":"audit1","name":"C09 · 56 ván mới","start":1,"seq":"HBPPHBBHPPBHBBPPPBBBPBBBPPPPBBPHBBBPBBBHPPHBBPBPPBBBPPBP","tag":"extra"},{"id":"audit2","name":"C13 · 64 ván mới","start":1,"seq":"PBPPPHPPBPPBPBBPBBPBPHBHBPPBPBPPBPPBBBPHPHBPPBPPBPPBBPPBBBPPPBBP","tag":"extra"},{"id":"audit3","name":"baccarat-video-lab-2026-10-21.json / Shoe 1","start":1,"seq":"BPPPPPBBPBBPBPBPBBPPPPBBBBPBBBPPBBBPPPBPPPPPPBBBBBPBBHPBPHHPBPBB","tag":"extra"},{"id":"audit4","name":"baccarat-video-lab-2026-10-21(1).json / Shoe 1","start":1,"seq":"BBBBHBHPPPPBBBPBBBBPBBBPBBPBPPPBBPBBBHPPPPPPPBBBPP","tag":"extra"},{"id":"audit5","name":"Baccarat_Khoi_Backup_2026-11-02_2.json / Bàn C09","start":1,"seq":"PPBBBPPBBBBPBPBBPPPPBPBPBBBPPBBPBHPBPPPPPPPPPBPP","tag":"extra"},{"id":"audit6","name":"Baccarat Mẫu Excel 18 ván","start":1,"seq":"BPPBPBPPHBBPBPBBPP","tag":"extra"}];
+const REF=[0,3,4,1,2,3,4], $=id=>document.getElementById(id), isBP=v=>v==='P'||v==='B', rev=v=>v==='P'?'B':v==='B'?'P':null, flip=v=>v==='T'?'N':v==='N'?'T':null;
+const esc=x=>String(x).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const cOf=n=>Math.ceil(n/6),rOf=n=>(n-1)%6+1;
+const at=(b,n)=>n>=b.start&&n<b.start+b.seq.length?b.seq[n-b.start]:null;
+const cv=(b,c,r)=>c>=1&&r>=1&&r<=6?at(b,(c-1)*6+r):null;
+const sg=(b,c,r)=>{if(c<2||r<1||r>6)return '?';let a=cv(b,c,r),ref=cv(b,c-1,REF[r]);return isBP(a)&&isBP(ref)?a===ref?'T':'N':'?'};
+const validTN=x=>x==='T'||x==='N';
+function context(b,n){let c=cOf(n),k=rOf(n),s=(cc,rr)=>sg(b,cc,rr),old=Array.from({length:6},(_,i)=>s(c-1,i+1)),older=Array.from({length:6},(_,i)=>s(c-2,i+1)),cur=Array.from({length:k-1},(_,i)=>s(c,i+1)),bp=Array.from({length:6},(_,i)=>cv(b,c-1,i+1)),before=Array.from({length:k-1},(_,i)=>cv(b,c,i+1)),t=cur.filter(x=>x==='T').length,nn=cur.filter(x=>x==='N').length,pt=old.filter(x=>x==='T').length,pn=old.filter(x=>x==='N').length;return {b,n,c,k,s,ref:cv(b,c-1,REF[k]),old,older,cur,bp,before,t,nn,pt,pn,first:old.find(validTN)||null,last:cur.at(-1)||null,prevHand:at(b,n-1)};}
+// pred may be T or N, and must be determined strictly before the next outcome.
+const mk=(id,name,group,desc,fn)=>({id,name,group,desc,fn});
+const RULES=[
+mk('R1','Hòa cùng hàng + 2 dấu cân bằng','R1–R5','Hai dấu hiện tại là TN/NT, cùng hàng cột trước là Hòa',x=>x.k>=3&&x.cur.slice(-2).includes('T')&&x.cur.slice(-2).includes('N')&&x.bp[x.k-1]==='H'?'N':null),
+mk('R2','Đầu cột trước T + chéo lên T','R1–R5','Dấu đầu cột trước T và hàng k+2 cột trước T (k≤4)',x=>x.k<=4&&x.first==='T'&&x.old[x.k+1]==='T'?'N':null),
+mk('R3','T/N hiện tại cân bằng + cột trước T đầu','R1–R5','T=N và có ít nhất hai dấu thật; cột trước bắt đầu T',x=>x.t+x.nn>=2&&x.t===x.nn&&x.first==='T'?'N':null),
+mk('R4','Hàng 1 + cách hai cột là N','R1–R5','Đúng hàng 1 và dấu hàng 1 cách 2 cột là N',x=>x.k===1&&x.s(x.c-2,1)==='N'?'N':null),
+mk('R5','Hòa hàng 1 → kiểm tra N hàng 1 kế','R1–R5','Hàng 1 cột trước có Hòa; kiểm tra dấu hàng 1 cột này',x=>x.k===1&&x.bp[0]==='H'?'N':null),
+mk('D1','N chéo lên ×2','Đường chéo','Hai dấu N trên đường chéo lên k+1,k+2 ở hai cột trước',x=>x.s(x.c-1,x.k+1)==='N'&&x.s(x.c-2,x.k+2)==='N'?'N':null),
+mk('D2','T chéo lên ×2','Đường chéo','Hai dấu T trên đường chéo lên ở hai cột trước',x=>x.s(x.c-1,x.k+1)==='T'&&x.s(x.c-2,x.k+2)==='T'?'T':null),
+mk('D3','N chéo xuống ×2','Đường chéo','Hai dấu N trên đường chéo xuống k−1,k−2',x=>x.s(x.c-1,x.k-1)==='N'&&x.s(x.c-2,x.k-2)==='N'?'N':null),
+mk('D4','T chéo xuống ×2','Đường chéo','Hai dấu T trên đường chéo xuống ở hai cột trước',x=>x.s(x.c-1,x.k-1)==='T'&&x.s(x.c-2,x.k-2)==='T'?'T':null),
+mk('S1','Lặp 2 dấu giống nhau','Nhịp trong cột','Nếu hai dấu cuối TT hoặc NN, dự báo nối tiếp dấu đó',x=>x.k>=3&&validTN(x.last)&&x.last===x.cur.at(-2)?x.last:null),
+mk('S2','Xen kẽ 2 dấu','Nhịp trong cột','Nếu hai dấu cuối TN/NT, dự báo đảo dấu cuối',x=>x.k>=3&&validTN(x.last)&&validTN(x.cur.at(-2))&&x.last!==x.cur.at(-2)?flip(x.last):null),
+mk('S3','Lặp 3 dấu giống nhau','Nhịp trong cột','Ba dấu cuối TTT hoặc NNN thì tiếp tục dấu đó',x=>x.k>=4&&validTN(x.last)&&x.cur.slice(-3).every(v=>v===x.last)?x.last:null),
+mk('S4','Xen kẽ 3 dấu','Nhịp trong cột','Ba dấu cuối TNT/NTN thì đảo tiếp',x=>x.k>=4&&validTN(x.last)&&validTN(x.cur.at(-2))&&x.last===x.cur.at(-3)&&x.last!==x.cur.at(-2)?flip(x.last):null),
+mk('P1','Cùng hàng 2 cột trùng','Lặp giữa cột','Hai cột trước ở cùng hàng đều T hoặc đều N',x=>x.old[x.k-1]===x.older[x.k-1]&&validTN(x.old[x.k-1])?x.old[x.k-1]:null),
+mk('P2','Cùng hàng 2 cột đảo','Lặp giữa cột','Hai cột trước ở cùng hàng TN hoặc NT; giả định xen kẽ',x=>validTN(x.old[x.k-1])&&validTN(x.older[x.k-1])&&x.old[x.k-1]!==x.older[x.k-1]?flip(x.old[x.k-1]):null),
+mk('P3','Cột hiện tại sao chép 3 dấu','Lặp giữa cột','Ba dấu gần nhất trùng dấu cùng hàng cột trước, lấy dấu tiếp theo',x=>x.k>=4&&validTN(x.old[x.k-1])&&x.cur.slice(-3).every((v,i)=>validTN(v)&&v===x.old[x.k-4+i])?x.old[x.k-1]:null),
+mk('P4','Cột hiện tại đảo 3 dấu','Lặp giữa cột','Ba dấu gần nhất đều ngược dấu cùng hàng cột trước, đảo dấu tiếp theo',x=>x.k>=4&&validTN(x.old[x.k-1])&&x.cur.slice(-3).every((v,i)=>validTN(v)&&validTN(x.old[x.k-4+i])&&v===flip(x.old[x.k-4+i]))?flip(x.old[x.k-1]):null),
+mk('C1','Đa số T/N cột trước','Đếm T/N','Cột trước ≥4 dấu hợp lệ và lệch T/N; đi theo đa số',x=>x.pt+x.pn>=4&&x.pt!==x.pn?(x.pt>x.pn?'T':'N'):null),
+mk('C2','Thiểu số T/N cột trước','Đếm T/N','Cột trước ≥4 dấu hợp lệ và lệch T/N; đi ngược đa số',x=>x.pt+x.pn>=4&&x.pt!==x.pn?(x.pt>x.pn?'N':'T'):null),
+mk('C3','Hiện tại có ≥3 N, không T','Đếm T/N','Cột hiện tại từ 3N và 0T; thử tiếp N',x=>x.nn>=3&&x.t===0?'N':null),
+mk('C4','Hiện tại có ≥3 T, không N','Đếm T/N','Cột hiện tại từ 3T và 0N; thử tiếp T',x=>x.t>=3&&x.nn===0?'T':null),
+mk('B1','Khối Banker trội + màu hàng','Khối P/B','Con 5–6: cột trước nhiều B và 2 ô vừa ra khác màu, đi theo màu cùng hàng cột trước',x=>{let bs=x.bp.filter(v=>v==='B').length,ps=x.bp.filter(v=>v==='P').length,a=x.before.at(-1),b=x.before.at(-2),p=x.bp[x.k-1];return x.k>=5&&bs>ps&&isBP(a)&&isBP(b)&&a!==b&&isBP(p)&&isBP(x.ref)?(p===x.ref?'T':'N'):null;}),
+mk('B2','Nghịch cách 7 ở hàng 6','Khối P/B','Hàng 6; hai ô 4–5 cột trước giống, ván trước không Hòa',x=>x.k===6&&isBP(x.prevHand)&&isBP(x.bp[3])&&x.bp[3]===x.bp[4]&&isBP(x.ref)?(rev(x.bp[4])===x.ref?'T':'N'):null),
+mk('B3','TN cuối cột → N','Khối P/B','Hàng 5–6; hai dấu cuối TN; ô 1 và 6 cột trước khác nhau',x=>x.k>=5&&x.cur.slice(-2).join('')==='TN'&&isBP(x.bp[0])&&isBP(x.bp[5])&&x.bp[0]!==x.bp[5]?'N':null),
+mk('B4','NT + hai đầu cột cùng màu → T','Khối P/B','Hai dấu cuối NT; ô 1/6 cột trước cùng màu và cặp k−2/k−1 khác màu',x=>x.cur.slice(-2).join('')==='NT'&&isBP(x.bp[0])&&x.bp[0]===x.bp[5]&&isBP(x.bp[x.k-3])&&isBP(x.bp[x.k-2])&&x.bp[x.k-3]!==x.bp[x.k-2]?'T':null),
+mk('H1','Hòa ván trước → N','Dấu Hòa','Sau kết quả Hòa trước ô mới, thử N; chỉ nghiên cứu',x=>x.prevHand==='H'?'N':null),
+mk('H2','Đường chéo N qua ?','Dấu Hòa','Dấu cột trước trên chéo là ?, cách 2 cột có N',x=>x.k<=4&&x.s(x.c-1,x.k+1)==='?'&&(cv(x.b,x.c-1,x.k+1)==='H'||cv(x.b,x.c-2,REF[x.k+1])==='H')&&x.s(x.c-2,x.k+2)==='N'?'N':null),
+mk('M1','Nhịp TN cột trước dịch hàng','Phép so T/N','Cột trước hàng k−2 là T, hàng k−1 là N; dự báo N',x=>x.s(x.c-1,x.k-2)==='T'&&x.s(x.c-1,x.k-1)==='N'?'N':null),
+mk('M2','Dấu hàng 6 cột trước T → đảo N','Phép so T/N','Con 6: S6 cột trước T, dự báo N',x=>x.k===6&&x.s(x.c-1,6)==='T'?'N':null),
+mk('M3','Đầu cột khác + ≥2 T → N','Phép so T/N','Cột trước hàng 1–2 B/P khác nhau, hiện tại ít nhất 2T',x=>isBP(x.bp[0])&&isBP(x.bp[1])&&x.bp[0]!==x.bp[1]&&x.t>=2?'N':null)
+];
+const GROUPS=[...new Set(RULES.map(r=>r.group))];
+const STORAGE='tn_rule_lab_30_v1',OLD_STORAGE='tn_4_rules_20261112_v1';
+const defaults=()=>Object.fromEntries(RULES.map(r=>[r.id,true]));
+const fresh=()=>({selected:'demo65',cursor:65,tab:'main',edits:[],enabled:defaults(),mode:'auto',filterVersion:4,minSample:2,query:'',deletedIds:[]});
+function load(){
+ try{
+  const v=JSON.parse(localStorage.getItem(STORAGE));
+  if(v&&Array.isArray(v.edits))return {...fresh(),...v,mode:v.mode==='observe'?'observe':'auto',filterVersion:4,minSample:2,enabled:{...defaults(),...v.enabled},deletedIds:Array.isArray(v.deletedIds)?v.deletedIds:[]};
+  const old=JSON.parse(localStorage.getItem(OLD_STORAGE));
+  if(old&&Array.isArray(old.edits))return {...fresh(),selected:old.selected,cursor:old.cursor,edits:old.edits,enabled:{...defaults(),...old.enabled},tab:['main','stats'].includes(old.tab)?old.tab:'main'};
+ }catch(e){}
+ return fresh();
+}
+let state=load();const save=()=>{try{localStorage.setItem(STORAGE,JSON.stringify(state));}catch(e){$('toast').textContent='Không lưu tự động được, hãy xuất JSON'}};
+const allBoards=()=>[...BASE,{id:'blank',name:'Bàn mới · 0 ván',start:1,seq:'',tag:'custom'},...state.edits].reduce((acc,b)=>{let i=acc.findIndex(x=>x.id===b.id);if(i>=0)acc[i]=b;else acc.push(b);return acc;},[]).filter(b=>!(state.deletedIds||[]).includes(b.id));
+const board=()=>allBoards().find(b=>b.id===state.selected)||BASE[0];
+const before=(b,n)=>({start:b.start,seq:b.seq.slice(0,Math.max(0,n-b.start))});
+function matched(b,n){const x=context(b,n);return {x,items:RULES.map(r=>{let pred=r.fn(x);return validTN(pred)?{id:r.id,name:r.name,group:r.group,desc:r.desc,pred}:null}).filter(Boolean)}}
+function pastBoards(){return {train:BASE.filter(b=>b.tag==='train'),test:BASE.filter(b=>b.tag==='test'),demo:BASE.filter(b=>b.tag==='demo')}}
+function judgeBoard(b,max=b.seq.length){const log=[];for(let i=0;i<Math.min(max,b.seq.length);i++){let n=b.start+i,prev=before(b,n),m=matched(prev,n),v=b.seq[i],ref=m.x.ref,actual=isBP(ref)&&isBP(v)?(ref===v?'T':'N'):null;log.push({n,c:m.x.c,k:m.x.k,ref,actual,v,items:m.items});}return log;}
+const DATA=pastBoards(),TRAIN=DATA.train.flatMap(x=>judgeBoard(x)),TEST=DATA.test.flatMap(x=>judgeBoard(x)),DEMO=DATA.demo.flatMap(x=>judgeBoard(x));
+function ruleStats(logs,id){let out={fire:0,ok:0,wrong:0,tie:0,invalid:0};for(const a of logs){let r=a.items.find(x=>x.id===id);if(!r)continue;out.fire++;if(a.v==='H')out.tie++;else if(a.actual===null)out.invalid++;else if(r.pred===a.actual)out.ok++;else out.wrong++;}out.n=out.ok+out.wrong;out.pct=out.n?100*out.ok/out.n:null;return out;}
+const STAT=Object.fromEntries(RULES.map(r=>[r.id,{train:ruleStats(TRAIN,r.id),test:ruleStats(TEST,r.id),demo:ruleStats(DEMO,r.id)}]));
+function historicalTier(r){
+ const a=STAT[r.id].train,b=STAT[r.id].test;
+ if(a.n>=15&&b.n>=10&&a.pct>=75&&b.pct>=75)return 'priority';
+ if(a.n>=8&&b.n>=5&&a.pct>=75&&b.pct>=75)return 'sample';
+ return 'weak';
+}
+function localForm(logs,id){
+ const valid=logs.filter(e=>e.actual&&e.items.some(z=>z.id===id));
+ const grades=valid.map(e=>e.items.find(z=>z.id===id).pred===e.actual);
+ const last5=grades.slice(-5),last10=grades.slice(-10);
+ const pct=a=>a.length?100*a.filter(Boolean).length/a.length:null;
+ const wrongStreak=grades.slice().reverse().findIndex(Boolean);
+ return {n:grades.length,ok:grades.filter(Boolean).length,pct:pct(grades),recentN:last5.length,recentPct:pct(last5),recent10:pct(last10),wrongStreak:wrongStreak<0?grades.length:wrongStreak};
+}
+const TARGET_PCT=66.66666666666667;
+function rankRule(r,logs){
+ const loc=localForm(logs,r.id),a=STAT[r.id].train,b=STAT[r.id].test;
+ const sample=loc.n;
+ // Quy tắc theo bàn: đúng tối thiểu 2 lần, và tỷ lệ từ 2/3 trở lên.
+ // Khi 2/2 được nâng; sau một sai -> 2/3 vẫn được xét; 2/4 thì hạ xuống.
+ const on=loc.ok>=2 && loc.n>0 && loc.ok/loc.n>=2/3;
+ const histN=a.n+b.n,histPct=histN?100*(a.ok+b.ok)/histN:null;
+ const source=on?'local':null;
+ return {tier:historicalTier(r),loc,source,pct:source?loc.pct:null,n:source?loc.n:0,ok:on,pause:false,
+  histN,histPct,
+  reason:on?'Đã có '+loc.ok+'/'+loc.n+' đúng trên bàn (≥2 đúng, ≥66,7%).':
+   loc.ok<2?'Chưa đạt 2 đúng trên bàn ('+loc.ok+'/'+loc.n+').':
+   'Đang dưới 66,7% trên bàn: '+loc.ok+'/'+loc.n+'.'};
+}
+function rankedCandidates(m,priorLogs=[]){
+ return m.items.filter(x=>state.enabled[x.id]).map(x=>({...x,assessment:rankRule(RULES.find(r=>r.id===x.id),priorLogs)}))
+ .sort((a,b)=>{
+  const ax=a.assessment,bx=b.assessment;
+  return Number(bx.ok)-Number(ax.ok)|| (bx.pct??-1)-(ax.pct??-1)||
+    bx.n-ax.n|| (bx.histPct??-1)-(ax.histPct??-1)||bx.histN-ax.histN||a.id.localeCompare(b.id);
+ });
+}
+function effective(m,priorLogs=[]){
+ const assessed=rankedCandidates(m,priorLogs);
+ const ready=assessed.filter(x=>x.assessment.ok);
+ const filtered=assessed.filter(x=>!x.assessment.ok);
+ const winner=state.mode==='observe'||!isBP(m.x.ref)?null:(ready[0]||null);
+ const kind=!isBP(m.x.ref)?'no-ref':state.mode==='observe'?'wait':winner?'signal':'wait';
+ const groups=winner?[{group:winner.group,pred:winner.pred,items:[winner]}]:[];
+ const clashed=[];
+ const chosen=winner?winner.pred:null;
+ return {enabled:assessed,assessed,ready,filtered,groups,clashed,chosen,kind,ref:m.x.ref,all:m.items,winner};
+}
+
+const freq=(g)=>g.n?g.ok+'/'+g.n+' ('+g.pct.toFixed(1).replace('.',',')+'%)':'—';
+const kpi=(v,label,tip='')=>'<div class="metric"><b>'+esc(v)+'</b><small>'+esc(label)+'</small><small>'+esc(tip)+'</small></div>';
+function getCurrent(){const b=board();state.cursor=Math.max(0,Math.min(state.cursor,b.seq.length));const preview={start:b.start,seq:b.seq.slice(0,state.cursor)},n=b.start+state.cursor,m=matched(preview,n),logs=judgeBoard(b,state.cursor),cur=effective(m,logs);return {b,preview,n,m,cur,logs};}
+function overview(logs){
+ let ok=0,wrong=0,signal=0,tie=0,conflict=0,prior=[];
+ for(const h of logs){
+  const fake=effective({x:{ref:h.ref},items:h.items},prior);
+  if(fake.kind==='signal'){
+   signal++;
+   if(h.v==='H')tie++;
+   else if(h.actual===fake.chosen)ok++;
+   else if(h.actual)wrong++;
+  }
+  if(fake.kind==='conflict')conflict++;
+  prior.push(h);
+ }
+ return {ok,wrong,signal,tie,conflict,pct:ok+wrong?100*ok/(ok+wrong):null};
+}
+const asPct=x=>x===null?'—':x.toFixed(1).replace('.',',')+'%';
+function pctClass(pct){return pct==null?'pct-na':pct>=75?'pct-hi':pct>=60?'pct-mid':'pct-low'}
+function pickBP(pred,ref){if(!isBP(ref))return null;return pred==='T'?ref:pred==='N'?rev(ref):null}
+function rulePickBadge(pred,ref){
+ const pick=pickBP(pred,ref);
+ if(!pick)return '<div class="rule-pick blocked"><span class="pick-prefix">BÁO '+esc(pred)+' · MỐC HÒA</span><span class="pick-main">CHỜ B/P</span></div>';
+ return '<div class="rule-pick '+pick+'"><span class="pick-prefix">TÍN HIỆU '+esc(pred)+'</span><span class="pick-main">'+(pick==='B'?'BANKER':'PLAYER')+'</span></div>';
+}
+function boldPctBlock(label,g,primary=false){
+ const n=g?.n||0,pct=n?g.pct:null,ok=g?.ok||0;
+ return '<span class="quality-stat '+(primary?'primary':'')+'"><span class="qs-label">'+esc(label)+'</span><span class="qs-num"><strong class="qs-pct '+pctClass(pct)+'">'+asPct(pct)+'</strong><span class="qs-count">'+ok+'/'+n+'</span></span></span>';
+}
+
+function renderMain(v){
+ const {preview,n,m,cur,logs}=v,k=rOf(n),c=cOf(n),go=cur.chosen;
+ const leader=cur.winner,leaderStats=leader?.assessment;
+ const actualBP=go?pickBP(go,cur.ref):null;
+ $('target').textContent='#'+n+' · C'+c+' H'+k;
+ const display=cur.kind==='signal'&&leader?(actualBP==='B'?'BANKER':'PLAYER'):
+  cur.kind==='no-ref'?'MỐC HÒA · CHỜ':'CHỜ';
+ let why='Chưa có rule nào khớp với ≥2 đúng và tỷ lệ bàn ≥66,7%.';
+ if(cur.kind==='no-ref')why='Ô mốc là Hòa/thiếu, không quy đổi T/N sang Banker/Player.';
+ else if(state.mode==='observe')why='Chế độ chỉ quan sát.';
+ else if(leaderStats?.source==='local')why='Theo bàn: '+leaderStats.loc.ok+'/'+leaderStats.loc.n+' đúng · '+asPct(leaderStats.pct)+' đã ghi; lịch sử '+asPct(leaderStats.histPct)+'.';
+ else if(leaderStats?.source==='history')why='Theo lịch sử: '+leaderStats.n+' mẫu · '+asPct(leaderStats.pct)+' hồi cứu.';
+ $('hero').className='hero '+(cur.kind==='signal' && actualBP==='B'?'banker':cur.kind==='signal' && actualBP==='P'?'player':cur.kind==='no-ref'?'no-ref':'wait');
+ $('hero').innerHTML='<div class="micro">Mốc C'+(c-1)+' H'+REF[k]+' = '+esc(cur.ref||'?')+'</div><div class="big">'+esc(display)+'</div>'+
+  (leader?'<div class="lead">'+esc(leader.id)+' · '+esc(leader.name)+' · '+asPct(leaderStats.pct)+' ('+leaderStats.loc.ok+'/'+leaderStats.loc.n+' bàn)</div>':'')+
+  '<div class="note">'+esc(why)+'</div>';
+ const h=overview(logs);
+ $('metrics').innerHTML=kpi(m.x.t+'T / '+m.x.nn+'N','Cột hiện tại')+kpi(leader?leader.id:'—','Rule đủ ngưỡng')+kpi(asPct(h.pct),'Bàn này · hồi cứu',h.ok+'Đ / '+h.wrong+'S / '+h.tie+'H');
+ // Only show qualified active rules. Low-rate or insufficient-sample rules are kept in the research tab.
+ const ranked=cur.ready.slice(0,4);
+ $('qualitySummary').innerHTML='<div class="quality-strip"><div class="qh">RULE ĐÃ ĐÚNG ≥2 · TỶ LỆ BÀN ≥66,7%</div>'+
+  (ranked.length?ranked.map(o=>{
+   const st=o.assessment,chosen=leader?.id===o.id;
+   return '<div class="quality-row '+(chosen?'is-match':'')+'"><div class="quality-body"><div class="quality-name">'+esc(o.id+' · '+o.name)+'</div>'+
+    '<div class="quality-stats">'+boldPctBlock('Bàn này',st.loc,true)+boldPctBlock('Lịch sử',{
+       n:STAT[o.id].train.n+STAT[o.id].test.n,ok:STAT[o.id].train.ok+STAT[o.id].test.ok,
+       pct:(STAT[o.id].train.ok+STAT[o.id].test.ok)/(STAT[o.id].train.n+STAT[o.id].test.n)*100})+'</div></div>'+
+    '<div class="quality-action">'+rulePickBadge(o.pred,cur.ref)+'<span class="quality-badge '+(chosen?'active':'sample')+'">'+(chosen?'ĐƯỢC CHỌN':st.source==='history'?'LỊCH SỬ':'BÀN ĐỦ NGƯỠNG')+'</span></div></div>';
+  }).join(''):'<div class="subnote">Chưa có rule đủ 2 đúng và ≥66,7% trên bàn này.</div>')+
+  '<div class="quality-sub">Đang theo dõi '+cur.filtered.length+' rule chưa đủ 2 đúng hoặc tỷ lệ dưới 66,7%; dữ liệu vẫn được chấm.</div></div>';
+ $('voteMeta').textContent=cur.ready.length+' đạt · '+cur.filtered.length+' chỉ nghiên cứu';$('quickMode').value=state.mode;
+ $('votes').innerHTML=cur.ready.slice(0,4).map(q=>'<span class="vote '+q.pred+'">'+esc(q.id)+' '+q.pred+' · '+asPct(q.assessment.pct)+'</span>').join('');
+ $('filterExplain').textContent='Từng rule tự lên khi đúng ≥2 lần và đúng/tổng ≥66,7% trên chính bàn này. 2/2 → ON, 2/3 vẫn ON, 2/4 → OFF. Chọn một rule theo % bàn, số mẫu, sau đó mới tham khảo % lịch sử. Không cộng %.';
+ $('matchSummary').textContent='Xem '+cur.ready.length+' rule đạt ngưỡng và lý do';
+ $('matchRows').innerHTML=cur.ready.map(o=>{
+  const st=o.assessment;
+  return '<div class="rule"><div class="line"><span class="name">'+esc(o.id+' · '+o.name)+'</span><span class="badge '+o.pred+'">'+o.pred+' → '+(pickBP(o.pred,cur.ref)==='B'?'BANKER':pickBP(o.pred,cur.ref)==='P'?'PLAYER':'CHỜ')+'</span></div><div class="meta">'+esc(o.desc)+'</div><div class="meta">Bàn: '+st.loc.ok+'/'+st.loc.n+' · '+asPct(st.loc.pct)+' · 12 bàn: '+freq(STAT[o.id].train)+' · 5 bàn: '+freq(STAT[o.id].test)+'</div></div>';
+ }).join('')||'<div class="tiny">Không có rule đủ ngưỡng.</div>';
+ // Show only the latest six columns actually reached; never render seven empty future columns.
+ const lo=Math.max(1,c-5),max=c;let cols=[];
+ for(let col=lo;col<=max;col++){
+  let spot=[];
+  for(let i=1;i<=6;i++){
+   const hn=(col-1)*6+i,z=cv(preview,col,i),isNext=hn===n;
+   // Ván chỉ hiện B/P/H; chuỗi dấu T/N được cập nhật từng kết quả ở chân cột.
+   spot.push('<div class="spot"><span class="coin '+(isNext?'next':z||'empty')+'">'+(isNext?'○':z||'·')+'</span></div>');
+  }
+  cols.push('<div class="column '+(col===c?'current':'')+'"><strong>C'+col+'</strong>'+spot.join('')+'<div class="cell-foot" aria-label="Chuỗi T/N ở cuối cột">'+Array.from({length:6},(_,i)=>{if(!cv(preview,col,i+1))return '';const letter=sg(preview,col,i+1);return '<span class="foot-token '+(letter==='?'?'Q':letter)+'">'+letter+'</span>'}).join('')+'</div></div>');
+ }
+ $('road').innerHTML=cols.join('');$('roadInfo').textContent=v.preview.seq.length+' ván · C'+c;$('roadScroll').scrollLeft=$('roadScroll').scrollWidth;$('undo').disabled=state.cursor===0;
+}
+
+function auxRank(r,logs){
+ const st=rankRule(r,logs),a=STAT[r.id].train,b=STAT[r.id].test;
+ const n=a.n+b.n,histPct=n?100*(a.ok+b.ok)/n:null;
+ // Mẫu có 1 đúng hoặc từng mạnh theo lịch sử: theo dõi, không bỏ phiếu.
+ const candidate=!st.ok&&(st.loc.ok>=1||(n>=10&&histPct>=75));
+ const classRank=st.ok?0:candidate?1:2;
+ const displayPct=st.loc.n?st.loc.pct:histPct;
+ const displayN=st.loc.n||n;
+ return {st,a,b,candidate,classRank,displayPct,displayN,histPct};
+}
+function renderRules(v){
+ $('ruleCount').textContent=RULES.length+' rule · '+v.m.items.length+' đang khớp';
+ $('mode').value=state.mode;$('minSample').value=String(state.minSample);$('search').value=state.query||'';
+ const q=(state.query||'').toLowerCase().trim(),matches=r=>!q||(r.id+' '+r.name+' '+r.desc+' '+r.group).toLowerCase().includes(q);
+ const data=RULES.filter(matches).map(r=>({r,x:auxRank(r,v.logs),hit:v.m.items.find(h=>h.id===r.id)}));
+ const rankSort=(a,b)=>a.x.classRank-b.x.classRank||
+  (b.x.st.pct??b.x.displayPct??-1)-(a.x.st.pct??a.x.displayPct??-1)||
+  b.x.displayN-a.x.displayN||a.r.id.localeCompare(b.r.id);
+ data.sort(rankSort);
+ const promoted=data.filter(o=>state.enabled[o.r.id]&&o.x.st.ok);
+ const proposed=data.filter(o=>state.enabled[o.r.id]&&!o.x.st.ok&&o.x.candidate);
+ const studying=data.filter(o=>!state.enabled[o.r.id]||(!o.x.st.ok&&!o.x.candidate));
+ const ruleRow=({r,x,hit})=>{
+  const st=x.st,chosen=v.cur.winner?.id===r.id,enabled=!!state.enabled[r.id],pct=st.source?st.pct:x.displayPct;
+  const where=st.ok?'ĐÃ NÂNG · BÀN':x.candidate?'THEO DÕI · CHỜ 2 ĐÚNG':'NGHIÊN CỨU';
+  const label=!enabled?'ĐANG TẮT':chosen?'ĐƯỢC CHỌN':where;
+  const histStr='12 bàn '+freq(x.a)+' · 5 bàn '+freq(x.b);
+  const signal=hit?(pickBP(hit.pred,v.m.x.ref)==='B'?'BANKER':pickBP(hit.pred,v.m.x.ref)==='P'?'PLAYER':'MỐC HÒA'):'CHƯA KHỚP';
+  return '<div class="aux-row '+(chosen?'chosen':'')+'"><div class="aux-head">'+
+   '<label class="aux-name"><input class="rulecheck" type="checkbox" data-toggle="'+r.id+'" '+(enabled?'checked':'')+'><b>'+esc(r.id+' · '+r.name)+'</b></label>'+
+   '<span class="aux-right"><strong class="aux-pct '+pctClass(pct)+'">'+asPct(pct)+'</strong><span class="aux-tiny">'+(st.loc.n?st.loc.ok+'/'+st.loc.n+' bàn':(x.a.ok+x.b.ok)+'/'+(x.a.n+x.b.n)+' lịch sử')+'</span></span></div>'+
+   '<div class="aux-lower"><span class="aux-state '+(st.ok?'active':x.candidate?'candidate':'')+'">'+esc(label)+'</span>'+
+   '<span class="aux-signal '+(hit?.pred||'')+'">'+esc(hit?'ĐANG KHỚP '+hit.pred+' → '+signal:signal)+'</span></div>'+
+   '<details class="aux-extra"><summary>Lý do · số lần đúng/sai</summary><div>'+esc(r.desc)+'</div><div>Bàn này: '+st.loc.ok+'/'+st.loc.n+' · '+asPct(st.loc.pct)+' · '+esc(histStr)+'</div>'+
+   '<div>'+esc(st.reason)+(x.candidate?' · Chưa đủ điều kiện bỏ phiếu chính.':'')+'</div></details></div>';
+ };
+ $('priorityRules').innerHTML='<div class="aux-title">RULE TỰ NÂNG HẠNG (2 ĐÚNG) · '+promoted.length+' / '+RULES.length+'</div>'+
+  '<div class="aux-note">Không phân biệt chính/phụ. Đúng ≥2 và tỷ lệ bàn ≥66,7% tự lên, 2/3 vẫn giữ. '+state.minSample+' % lịch sử chỉ để tham khảo/xếp phụ, không tự kích hoạt.</div>'+
+  (promoted.map(ruleRow).join('')||'<p class="tiny">Chưa có rule nào đủ ≥2 đúng và ≥66,7% trên bàn này. Vẫn chấm mọi rule để tự nâng sau.</p>');
+ const pExisting=document.getElementById('auxCandidates');
+ if(pExisting){pExisting.innerHTML='<div class="aux-title">RULE ĐANG THEO DÕI · CHƯA ĐỦ ĐIỀU KIỆN ('+proposed.length+')</div>'+
+  (proposed.map(ruleRow).join('')||'<p class="tiny">Chưa có ứng viên.</p>');}
+ const weak=$('weakPanel');weak.open=!!q;
+ weak.querySelector('summary').textContent='Các rule còn lại / đang tắt · '+studying.length+' rule (nhấn xem)';
+ $('weakRules').innerHTML=studying.map(ruleRow).join('')||'<p class="tiny">Không có.</p>';
+ document.querySelectorAll('[data-toggle]').forEach(el=>el.addEventListener('change',()=>{state.enabled[el.dataset.toggle]=el.checked;save();render()}));
+ renderDynamic(v);
+}
+
+const FEATURES=[
+ {name:'Đuôi 2 dấu',group:'Lặp chuỗi',f:x=>x.cur.slice(-2).length===2&&x.cur.slice(-2).every(validTN)?x.cur.slice(-2).join(''):null},
+ {name:'Đuôi 3 dấu',group:'Lặp chuỗi',f:x=>x.cur.slice(-3).length===3&&x.cur.slice(-3).every(validTN)?x.cur.slice(-3).join(''):null},
+ {name:'Đuôi 4 dấu',group:'Lặp chuỗi',f:x=>x.cur.slice(-4).length===4&&x.cur.slice(-4).every(validTN)?x.cur.slice(-4).join(''):null},
+ {name:'Đuôi 3 dấu đúng hàng',group:'Vị trí hàng',f:x=>x.cur.length>=3&&x.cur.slice(-3).every(validTN)?x.k+'|'+x.cur.slice(-3).join(''):null},
+ {name:'Nhịp T/N đầy đủ đến hiện tại',group:'Vị trí hàng',f:x=>x.k>=3?x.k+'|'+x.cur.join(''):null},
+ {name:'Đuôi có Hòa (3 dấu)',group:'Hòa / khoảng ngắt',f:x=>x.cur.length>=3?x.k+'|'+x.cur.slice(-3).join(''):null},
+ {name:'Số lượng T/N hiện tại',group:'Số lượng',f:x=>x.t+x.nn>=2?x.k+'|'+x.t+'T'+x.nn+'N':null},
+ {name:'Số lượng T/N cột trước',group:'Số lượng',f:x=>x.pt+x.pn>=3?x.k+'|'+x.pt+'T'+x.pn+'N':null},
+ {name:'Cùng hàng hai cột trước',group:'Lặp giữa cột',f:x=>validTN(x.old[x.k-1])&&validTN(x.older[x.k-1])?x.old[x.k-1]+x.older[x.k-1]:null},
+ {name:'Ba dấu gần hàng ở cột trước',group:'Khối',f:x=>x.k>=2&&x.k<=5?x.old.slice(x.k-2,x.k+1).join(''):null},
+ {name:'Chéo lên hai cột',group:'Đường chéo',f:x=>x.k<=4&&validTN(x.s(x.c-1,x.k+1))&&validTN(x.s(x.c-2,x.k+2))?x.s(x.c-1,x.k+1)+x.s(x.c-2,x.k+2):null},
+ {name:'Chéo xuống hai cột',group:'Đường chéo',f:x=>x.k>=3&&validTN(x.s(x.c-1,x.k-1))&&validTN(x.s(x.c-2,x.k-2))?x.s(x.c-1,x.k-1)+x.s(x.c-2,x.k-2):null}];
+const PATTERN_STATS=Object.fromEntries(FEATURES.map(f=>[f.name,Object.create(null)]));
+for(const b of DATA.train){for(let i=0;i<b.seq.length;i++){const n=b.start+i,x=context(before(b,n),n),out=b.seq[i];if(!isBP(x.ref)||!isBP(out))continue;const answer=x.ref===out?'T':'N';for(const f of FEATURES){const key=f.f(x);if(key===null)continue;const item=PATTERN_STATS[f.name][key]||(PATTERN_STATS[f.name][key]={T:0,N:0});item[answer]++;}}}
+function renderDynamic(v){let out=[];for(const f of FEATURES){const key=f.f(v.m.x);if(key===null)continue;const m=PATTERN_STATS[f.name][key];if(!m)continue;const count=m.T+m.N,pred=m.T>m.N?'T':m.N>m.T?'N':'?';out.push({f,key,pred,count,rate:count?100*Math.max(m.T,m.N)/count:0,m});}out.sort((a,b)=>b.count-a.count);$('dynamic').innerHTML=out.length?out.map(o=>'<div class="rule"><div class="line"><b>'+esc(o.f.name)+'</b><span class="badge '+(o.pred==='?'?'disabled':o.pred)+'">'+o.pred+'</span></div><div class="meta">Mẫu <b>'+esc(o.key)+'</b> · T:'+o.m.T+' / N:'+o.m.N+' · '+o.count+' lần trên 12 bàn tìm mẫu'+(o.count<10?' · mẫu ít':'')+'</div></div>').join(''):'<p class="muted">Không có mẫu đủ trùng trong 12 bàn tìm mẫu.</p>';}
+function renderStats(v){
+ const tests=BASE.filter(x=>x.tag==='test').flatMap(b=>judgeBoard(b)),summary=[['12 bàn',overview(TRAIN)],['5 bàn',overview(tests)],['65 ván',overview(DEMO)],['Bàn này',overview(v.logs)]];
+ $('overall').innerHTML=summary.slice(1).map(([name,s])=>'<div class="st"><b>'+asPct(s.pct)+'</b><span>'+name+' · '+s.ok+'Đ/'+s.wrong+'S · '+s.signal+' gợi ý</span></div>').join('');
+ const row=r=>{const arr=[STAT[r.id].train,STAT[r.id].test,STAT[r.id].demo,ruleStats(v.logs,r.id)];return '<tr><td><b>'+esc(r.id+' · '+r.name)+'</b><div class="tiny">'+esc(r.group)+'</div></td>'+arr.map((s,i)=>'<td class="num">'+freq(s)+(s.n<state.minSample?'<small style="display:block;color:#9db5d2">mẫu ít</small>':'')+'</td>').join('')+'</tr>';};
+ const high=RULES.filter(r=>rankRule(r,v.logs).ok).sort((a,b)=>{let x=rankRule(a,v.logs),y=rankRule(b,v.logs);return (x.source==='local'?0:1)-(y.source==='local'?0:1)||y.pct-x.pct||y.n-x.n;});
+ const other=RULES.filter(r=>!high.includes(r));
+ $('statRows').innerHTML=high.map(row).join('')||'<tr><td colspan="5">Chưa có rule đạt điều kiện; xem phần đầy đủ bên dưới.</td></tr>';
+ $('weakStatRows').innerHTML=other.map(row).join('');
+}
+function renderLogs(v){
+ const latest=v.logs.map((h,i)=>({h,i})).slice(-50).reverse();
+ $('logRows').innerHTML=latest.map(({h,i})=>{const c=effective({x:{ref:h.ref},items:h.items},v.logs.slice(0,i)),prediction=c.chosen?(c.chosen==='T'?h.ref:rev(h.ref)):'—',grade=c.chosen&&h.actual?(c.chosen===h.actual?'ĐÚNG':'SAI'):h.v==='H'?'HÒA':'CHỜ';return '<div class="history-row"><b>#'+h.n+' C'+h.c+' H'+h.k+'</b> · '+h.v+' · '+esc(grade)+'<div class="tiny">T/N thực tế '+(h.actual||'?')+' · rule khớp '+h.items.map(t=>t.id+':'+t.pred).join(' ')+' · rule được chọn: '+c.groups.map(g=>g.group+':'+g.pred).join(' ')+' · dự báo: '+(c.chosen||'CHỜ')+' · B/P: '+prediction+'</div></div>';}).join('')||'<p class="muted">Chưa có dữ liệu.</p>';
+}
+
+function render(){
+ const v=getCurrent();
+ if(state.tab==='logs')state.tab='stats';
+ if(!['main','rules','stats','roadview','settings'].includes(state.tab))state.tab='main';
+ $('board').innerHTML=allBoards().map(b=>'<option value="'+esc(b.id)+'">'+esc(b.name)+' · '+b.seq.length+' ván</option>').join('');
+ $('board').value=v.b.id;
+ $('cursor').max=v.b.seq.length;$('cursor').value=state.cursor;$('cursorText').textContent=state.cursor+'/'+v.b.seq.length;
+ $('prev').disabled=state.cursor===0;$('next').disabled=state.cursor===v.b.seq.length;
+ $('v5round').textContent='Ván #'+v.n;
+ document.querySelectorAll('.tab').forEach(el=>el.classList.toggle('on',el.dataset.tab===state.tab));
+ document.querySelectorAll('.view').forEach(el=>el.classList.toggle('on',el.id===state.tab));
+ renderMain(v);
+ if(state.tab==='rules')renderRules(v);
+ if(state.tab==='stats'){renderStats(v);renderLogs(v)}
+ if(state.tab==='roadview')renderRoadFull(v);
+}
+function renderRoadFull(v){
+ const b=v.preview,c=cOf(v.n),lo=1,hi=c;let columns=[];
+ for(let col=lo;col<=hi;col++){
+  const spots=[];
+  for(let k=1;k<=6;k++){
+   const hn=(col-1)*6+k,z=cv(b,col,k),next=hn===v.n;
+   spots.push('<div class="spot"><span class="coin '+(next?'next':z||'empty')+'">'+(next?'○':z||'·')+'</span></div>');
+  }
+  const signs=Array.from({length:6},(_,i)=>cv(b,col,i+1)?'<span class="foot-token '+(sg(b,col,i+1)==='?'?'Q':sg(b,col,i+1))+'">'+sg(b,col,i+1)+'</span>':'').join('');
+  columns.push('<div class="column '+(col===c?'current':'')+'"><strong>C'+col+'</strong>'+spots.join('')+'<div class="cell-foot">'+signs+'</div></div>');
+ }
+ $('roadFull').innerHTML=columns.join('');$('fullRoadCount').textContent=v.preview.seq.length+' ván';
+ $('roadFull').parentElement.scrollLeft=$('roadFull').parentElement.scrollWidth;
+}
+function setBoard(id){state.selected=id;state.cursor=board().seq.length;save();render()}
+function commit(b){state.edits=state.edits.filter(x=>x.id!==b.id);state.edits.push({...b,tag:'custom'});save();}
+function insert(v){let b=board(),pos=state.cursor;if(pos<b.seq.length&&!confirm('Bạn đang tua ván cũ. Nhập mới sẽ xóa các ván phía sau trên bản sao bàn này. Tiếp tục?'))return;commit({...b,seq:b.seq.slice(0,pos)+v});state.cursor=pos+1;save();render();$('toast').textContent='Đã nhập '+v+' cho ván #'+(b.start+pos);}
+function undo(){const b=board();if(state.cursor<b.seq.length){state.cursor=b.seq.length;save();render();$('toast').textContent='Đã về cuối bàn; nhấn lại để hoàn tác ván cuối.';return;}if(!b.seq.length)return;commit({...b,seq:b.seq.slice(0,-1)});state.cursor=b.seq.length-1;save();render();$('toast').textContent='Đã hoàn tác.';}
+function download(filename,contents,type){const blob=new Blob([contents],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000)}
+function exportBoard(){const b=board();download('tn_rule_lab_30_'+b.id+'.json',JSON.stringify({format:'tn-rule-lab-30',version:1,boards:[{name:b.name,start:b.start,rounds:[...b.seq].map((v,i)=>({n:b.start+i,v}))}]},null,2),'application/json;charset=utf-8')}
+function exportAllBoards(){
+ // Sao lưu cả các bản sửa, rule đang bật, bàn đã ẩn và vị trí hiện tại.
+ const payload={format:'tn-rule-lab-30-full-backup',version:2,exportedAt:new Date().toISOString(),appState:state,boards:allBoards().map(b=>({id:b.id,name:b.name,start:b.start,rounds:[...b.seq].map((v,i)=>({n:b.start+i,v}))}))};
+ download('tn_rule_lab_30_full_backup.json',JSON.stringify(payload,null,2),'application/json;charset=utf-8');
+}
+function deleteCurrentBoard(){
+ const b=board();if(!confirm('XÓA BÀN '+b.name+' ('+b.seq.length+' ván)?\n\nTất cả kết quả của bàn này sẽ bị xóa khỏi tool. Hãy xuất JSON nếu cần lưu lại.'))return;
+ state.edits=state.edits.filter(x=>x.id!==b.id);
+ state.deletedIds=[...new Set([...(state.deletedIds||[]),b.id])];
+ let rem=allBoards();
+ if(!rem.length){const fallback={id:'new'+Date.now().toString(36),name:'Bàn mới',start:1,seq:'',tag:'custom'};state.edits.push(fallback);rem=[fallback]}
+ state.selected=rem[0].id;state.cursor=rem[0].seq.length;save();render();$('toast').textContent='Đã xóa bàn '+b.name+'.';
+}
+function restoreFullBackup(obj){
+ const v=obj.appState;
+ if(!v||!Array.isArray(v.edits)||!Array.isArray(v.deletedIds))throw Error('Bản sao lưu thiếu dữ liệu appState.');
+ if(!v.edits.every(b=>b&&typeof b.id==='string'&&typeof b.name==='string'&&Number.isSafeInteger(b.start)&&b.start>=1&&typeof b.seq==='string'&&/^[BPH]*$/.test(b.seq)))throw Error('Có bàn không hợp lệ trong bản sao lưu');
+ if(!confirm('Khôi phục TOÀN BỘ dữ liệu và cài đặt từ bản sao lưu? Dữ liệu hiện có sẽ bị thay thế. Hãy xuất bản sao lưu trước nếu cần.'))return false;
+ state={...fresh(),...v,deletedIds:v.deletedIds.filter(x=>typeof x==='string'),enabled:{...defaults(),...(v.enabled||{})},minSample:2,mode:v.mode==='observe'?'observe':'auto'};
+ let bs=allBoards();if(!bs.length){const fallback={id:'new'+Date.now().toString(36),name:'Bàn mới',start:1,seq:'',tag:'custom'};state.edits.push(fallback);bs=[fallback]}
+ const found=bs.find(b=>b.id===state.selected)||bs[0];state.selected=found.id;state.cursor=Math.max(0,Math.min(Number(state.cursor)||0,found.seq.length));if(!['main','rules','stats','roadview','settings'].includes(state.tab))state.tab='main';save();render();return true;
+}
+function toBoard(obj){const src=Array.isArray(obj.boards)?obj.boards[0]:obj;if(!src)throw Error('Không tìm thấy bàn');let start=Number(src.start||1),seq='';if(typeof src.seq==='string')seq=src.seq.toUpperCase().replace(/\s/g,'').replace(/T/g,'H');else if(Array.isArray(src.rounds)){const rows=src.rounds.map((r,i)=>({n:Number(r.n??r.round??start+i),v:String(r.v??r.result??r.winner??'').toUpperCase()})).sort((a,b)=>a.n-b.n);if(rows.some((r,i)=>!Number.isSafeInteger(r.n)||!['B','P','H','T'].includes(r.v)||(i&&rows[i-1].n+1!==r.n)))throw Error('Ván không liên tục hoặc kết quả sai');start=rows[0]?.n||1;seq=rows.map(r=>r.v==='T'?'H':r.v).join('');}else throw Error('JSON không có rounds / seq');if(!Number.isSafeInteger(start)||start<1||!/^[BPH]*$/.test(seq))throw Error('Dữ liệu không hợp lệ');return {id:'imp'+Date.now().toString(36),name:String(src.name||'Bàn nhập JSON').slice(0,80),start,seq,tag:'custom'};}
+$('board').addEventListener('change',e=>setBoard(e.target.value));document.querySelectorAll('.tab').forEach(el=>el.addEventListener('click',()=>{state.tab=el.dataset.tab;save();render()}));document.querySelectorAll('[data-add]').forEach(el=>el.addEventListener('click',()=>insert(el.dataset.add)));$('undo').addEventListener('click',undo);
+$('cursor').addEventListener('input',e=>{state.cursor=Number(e.target.value);save();render()});$('prev').addEventListener('click',()=>{state.cursor=Math.max(0,state.cursor-1);save();render()});$('next').addEventListener('click',()=>{state.cursor=Math.min(board().seq.length,state.cursor+1);save();render()});
+$('new').addEventListener('click',()=>{const name=prompt('Tên bàn mới?','Bàn mới');if(name===null)return;const s=prompt('Bắt đầu từ ván số mấy?','1');if(s===null)return;const start=Number(s);if(!Number.isSafeInteger(start)||start<1){alert('Số ván phải là số nguyên dương');return;}const b={id:'new'+Date.now().toString(36),name:name.slice(0,70)||'Bàn mới',start,seq:'',tag:'custom'};commit(b);state.selected=b.id;state.cursor=0;save();render()});
+$('reset').addEventListener('click',()=>{if(!confirm('Khôi phục 65 ván mẫu gốc?'))return;state.edits=state.edits.filter(x=>x.id!=='demo65');state.selected='demo65';state.cursor=65;save();render()});$('export').addEventListener('click',exportBoard);$('exportAll').addEventListener('click',exportAllBoards);$('deleteBoard').addEventListener('click',deleteCurrentBoard);$('import').addEventListener('click',()=>$('file').click());$('file').addEventListener('change',async e=>{let file=e.target.files?.[0];if(!file)return;try{const obj=JSON.parse(await file.text());if(obj.format==='tn-rule-lab-30-full-backup'){restoreFullBackup(obj);}else{const b=toBoard(obj);commit(b);state.selected=b.id;state.cursor=b.seq.length;save();render();}}catch(err){alert('Không đọc được file: '+err.message)}e.target.value='';});
+$('mode').addEventListener('change',e=>{state.mode=e.target.value;save();render()});$('quickMode').addEventListener('change',e=>{state.mode=e.target.value;save();render()});$('minSample').addEventListener('change',e=>{state.minSample=Number(e.target.value);save();render()});$('search').addEventListener('input',e=>{state.query=e.target.value;save();renderRules(getCurrent())});$('allOn').addEventListener('click',()=>{state.enabled=defaults();save();render()});$('baseOnly').addEventListener('click',()=>{state.enabled=Object.fromEntries(RULES.map(r=>[r.id,['R1','R2','R3','R4'].includes(r.id)]));save();render()});
+const doExportCsv=()=>{const v=getCurrent(),data=[['Ván','Cột','Hàng','Kết quả','Mốc','TN thật','Rule khớp','Nhóm bỏ phiếu','TN dự báo','BP dự báo']];for(const [i,h] of v.logs.entries()){const t=effective({x:{ref:h.ref},items:h.items},v.logs.slice(0,i)),p=t.chosen?(t.chosen==='T'?h.ref:rev(h.ref)):'';data.push([h.n,h.c,h.k,h.v,h.ref||'',h.actual||'',h.items.map(x=>x.id+':'+x.pred).join('|'),t.groups.map(x=>x.group+':'+x.pred).join('|'),t.chosen||'',p]);}let csv='\ufeff'+data.map(row=>row.map(x=>'"'+String(x).replaceAll('"','""')+'"').join(',')).join('\r\n');download('tn_rule_lab_30_'+board().id+'_history.csv',csv,'text/csv;charset=utf-8')};$('csv').addEventListener('click',doExportCsv);$('csvQuick').addEventListener('click',doExportCsv);
+window.TNCore={RULES,context,matched,judgeBoard,ruleStats,sg,cv,overview};
+render();
+</script></body></html>
